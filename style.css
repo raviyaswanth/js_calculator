@@ -7,7 +7,7 @@ background : linear-gradient(to right,blue,green);
 }
 .calculator{
 display : grid;
-height : 100vh;
+min-height : 100vh;
 justify-content : center;
 margin : auto;
 align-content : center;
@@ -27,6 +27,8 @@ flex-direction : column;
 align-items :flex-end;
 color : white;
 padding : 10px;
+word-wrap : break-word;
+word-break : break-all;
 }
 .previous-element{
 font-size : 25px;
